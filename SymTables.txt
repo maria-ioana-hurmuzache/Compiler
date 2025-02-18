@@ -1,0 +1,41 @@
+SymTable of scope g:
+name: z; type: int; idType: var; valoare: 3;
+
+SymTable of scope A:
+name: g; type: int; idType: func; valoare: 0; tipuri parametri: int ;
+name: x; type: int; idType: var; valoare: 111;
+name: y; type: int; idType: var; valoare: 222;
+
+SymTable of scope B:
+name: x; type: float; idType: var; valoare: 0.0;
+
+SymTable of scope g:
+name: z; type: int; idType: var; valoare: 0;
+
+SymTable of scope f:
+name: z; type: int; idType: var; valoare: 0;
+
+SymTable of scope bfunc:
+name: b; type: bool; idType: var; valoare: false;
+name: f; type: float; idType: var; valoare: 0.0;
+name: s; type: string; idType: var;
+
+SymTable of scope global:
+name: A; type: clasa; idType: clasa;
+name: B; type: clasa; idType: clasa;
+name: b1; type: bool; idType: var; valoare: true;
+name: bfunc; type: int; idType: func; valoare: 0; tipuri parametri: bool string float ;
+name: c; type: char; idType: var; valoare: 'x';
+name: f; type: int; idType: func; valoare: 0; tipuri parametri: int ;
+name: fx; type: float; idType: var; valoare: 6.5;
+name: g; type: float; idType: func; valoare: 0.0; tipuri parametri: int ;
+name: ix; type: int; idType: var; valoare: 0;
+name: iy; type: int; idType: var; valoare: 900;
+name: iz; type: int; idType: var; valoare: 30;
+name: oba; type: A; idType: object;
+name: oba.x; type: int; idType: var; valoare: 0;
+name: obb; type: B; idType: object;
+name: s; type: string; idType: var; valoare: "string";
+name: v; type: int; idType: array; valoare: 0;
+name: x; type: int; idType: var; valoare: 60;
+

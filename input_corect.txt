@@ -1,0 +1,101 @@
+class A
+{
+    public:
+    int x := 100;
+    int y := 200;
+    int g(int z)
+    {
+        Print(x);
+        Print(y);
+        if(x+2 >y+5 && x+3 > g(45*3) - 10)
+        {
+            x:=x+y;
+            Print(x);
+            while(x > 10)
+            {
+                int x;
+                x:=3000;
+                Print(x);
+            }
+        }
+        return z + y;
+    }
+    int f(int z)
+    {
+        if(x+2 > y+5 )
+        {
+            x:= x + 4;
+        }
+        return x * z * y;
+    }
+};
+
+A oba;
+A ob;
+int x := 60;
+int ix := 10;
+int iy := 900;
+int iz := 30;
+bool b1 := true;
+bool b2 := false;
+float fx := 6.5;
+string s := "string" ;
+char c := 'x';
+int v[10];
+
+int f(int z)
+{
+    int x;
+    int y;
+    x:=5;
+    y:=10;
+    Print(x*y*10);
+    if(x > 2)
+    {
+        int x:=100;
+        Print(x *6);
+        bool flag;
+        while(flag == true)
+        {
+            int x;
+            x:=8;
+            Print(ix * 70);
+            Print(x * 100);
+            flag:=false;
+        }
+        y:=1000;
+        Print(iy);
+    }
+    Print(y);
+    return z*10;
+}
+
+int bfunc(bool b, string s)
+{
+    if(b == true)
+    {
+        return 10;
+    }
+    else
+    {
+        return 100;
+    }
+}
+
+begin_progr
+fx:= fx + 10.0 * fx - 65.0;
+Print(fx);
+Print(s);
+s:="otherstr";
+Print(s);
+Print(c);
+oba.x := 100;
+v[9]:=100;
+ix:=ix + (ix + f(ix*4))*2 + oba.x + v[5] + oba.f(10) ;
+Print(ix);
+Print(f(ix) + 1000 > 100 && oba.x + 2 > 100 || b1 == true );
+b1:= b2;
+bfunc(b1, "s");
+TypeOf(ix+5 > iy+6);
+TypeOf(ix+5 > iy+6 && b1 == false || f(ix) > 5);
+end_progr
